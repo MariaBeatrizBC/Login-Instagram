@@ -22,7 +22,7 @@ main {
     justify-content: center;
     width: 100%;
     padding: 2.1rem 0;
-    margin: 0;
+    margin-bottom: -30px;
 }
 
 #phone {
@@ -181,4 +181,21 @@ footer {
 
 #links:hover {
     text-decoration: underline;
+}
+
+/*Responsividade*/
+@media screen and (max-width: 800px) {
+    #phone, #video {
+        display: none;
+    }
+
+    main {
+        margin-bottom: 150px;
+    }
+
+    .options-container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
 }
