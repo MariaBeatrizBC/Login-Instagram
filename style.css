@@ -87,9 +87,10 @@ main {
     justify-content: center;
     align-items: center;
     gap: 18px;
-    font-size: 8px;
+    font-size: 12px;
     color: #7a7a7ae1;
     margin-bottom: 40px;
+    font-weight: 500;
 }
 
 .line {
@@ -190,7 +191,7 @@ footer {
     }
 
     main {
-        margin-bottom: 150px;
+        margin-bottom: 195px;
     }
 
     .options-container {
