@@ -12,9 +12,5 @@
   <img src="https://github.com/MariaBeatrizBC/Login-Instagram/assets/129955834/f59f1a9f-d442-497d-a756-ccef5bddaa7b" width="500px">
 </div>
 
-<div>
-  <h2>Ferramentas utilizadas:</h2>
-</div>
-
 <h2>Dificuldades encontradas durante o desenvolvimento:</h2>
 <p>A tela inicial do Instagram possui uma animação de imagens utilizando JavaSript. Porém, como ainda não possuo conhecimento suficiente em JavaScript para desenvolver esse tipo de animação de imagens, optei por editar um vídeo em uma plataforma de edição e adicionar ao site, mas infelizmente a reprodução automática não funciona no navegador Google Chrome.</p>
