@@ -1,0 +1,184 @@
+@charset "UTF-8";
+
+:root {
+    --ig-blue: #4BB2F2;
+    --face-blue: #37538C;
+    --gray-insta: #7a7a7a;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 2.1rem 0;
+    margin: 0;
+}
+
+#phone {
+    height: 635px;
+    margin-left: -45px;
+}
+
+#video {
+    width: 250px;
+    height: 536px;
+    border-radius: 20px;
+    position: absolute;
+    margin-top: -610px;
+    margin-left: 112px;
+}
+
+.login-container {
+    display: flex;
+    align-items: center;
+    width: 348px;
+    height: 400px;
+    background-color: white;
+    border: 1px solid #ccc;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+#logo-insta {
+    display: block;
+    margin: 2.5rem auto;
+    width: 175px;
+}
+
+.form-container #usuario, #password {
+    display: block;
+    padding: 10px 8px;
+    margin: 5px;
+    width: 250px;
+    background-color: rgb(250, 250, 250);
+    border: 1px solid #ccc;
+    font-size: 12px;
+    border-radius: 3px;
+    outline-color: rgb(219, 219, 219);
+
+}
+
+
+#btnEntrar {
+    display: block;
+    background-color: var(--ig-blue);
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 8px;
+    width: 270px;
+    border: none;
+    margin: 15px auto;
+    border-radius: 8px;
+}
+
+.or-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    font-size: 8px;
+    color: #7a7a7ae1;
+    margin-bottom: 40px;
+}
+
+.line {
+    height: 0.4px;
+    background-color: #ccccccea;
+    width: 105px;
+}
+
+.facebook-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 18px;
+}
+
+.facebook-container a {
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--face-blue);
+}
+
+#face-logo {
+    width: 16px;
+}
+
+#forget-password {
+    font-size: 12px;
+    color: var(--face-blue);
+    text-align: center;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.sign-up-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 348px;
+    height: 80px;
+    border: 1px solid #ccc;  
+    font-size: 9px;
+    color: var(--ig-blue);
+    padding: 22px 0;
+    margin-top: 28px;
+}
+
+.sign-up-container h2 {
+    cursor: pointer;
+}
+
+#app-icon {
+    height: 40px;
+}
+
+#obtenha {
+    text-align: center;
+    font-size: 14px;
+    margin: 1rem auto;
+    font-weight: 400;
+}
+
+footer {
+    margin-bottom: 50px;
+}
+
+.options-container {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    color: var(--gray-insta);
+}
+
+.options-container li {
+    font-size: 12px;
+    padding: 8px;
+}
+
+.options-container a {
+    color: var(--gray-insta);
+    text-decoration: none;
+}
+
+#links {
+    color: var(--gray-insta);
+    text-decoration: none;
+}
+
+#links:hover {
+    text-decoration: underline;
+}
